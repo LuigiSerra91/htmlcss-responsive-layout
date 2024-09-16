@@ -45,14 +45,18 @@ body{
     }
     a{
         font-size: 8px;
-        margin: 3px;
+        margin-left: 25px;
+        color: white;
+        margin-bottom: 30px;
     }
+
+    
 }
 
 .utility{
     display: flex;
     flex-wrap: wrap;
-    
+    gap: 20px;
    
 }
 
@@ -132,9 +136,54 @@ h3{
 }
 
 
-@media  screen and (max-width: 768px) { 
+@media  screen and (max-width: 767px) { 
        
     .banner{
         display: none;
     }
+    span{
+        display: none;
+    }
+    
 }
+@media screen and (min-width: 768px){
+
+    .social{
+        display: flex;
+        
+        gap: 5px;
+        i{
+            padding: 10px 40px;
+            border-radius: 20px;
+        }
+    }
+
+    
+
+    #app_header{
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .img_tiramisù{
+        img{
+            float: left;
+            width: 300px;
+            padding-right: ;
+          
+        }
+        
+    }
+
+    .title{
+        margin-left: 60px;
+      
+    }
+
+    h3{
+        font-size: 35px;
+    }
+
+    
+}
+   
