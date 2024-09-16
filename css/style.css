@@ -20,6 +20,40 @@ body{
 
 #app_header{
     background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#app_footer{
+    background-color: rgb(154, 80, 223);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    i{
+        font-size: 10px;
+        margin: 10px;
+        
+    }
+
+    p{
+        font-size: 9px;
+        margin: 5px;
+    }
+    a{
+        font-size: 8px;
+        margin: 3px;
+    }
+}
+
+.utility{
+    display: flex;
+    flex-wrap: wrap;
+    
+   
 }
 
 img{
