@@ -244,6 +244,11 @@ h3{
 
    .utility{
     margin-top: 25px;
+    margin-right: 10px;
+   }
+
+   .left_footer{
+    margin-left: 10px;
    }
 
    #app_header{
